@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="styles.css">
+  <title>Meeting Minutes</title>
+</head>
+
+<body>
+  <header>
+    <h1>Meeting Minutes</h1>
+    <p><b>Date:</b> 04/29/25</p>
+    <p><b>Topic:</b> Weekly Checkup</p>
+  </header>
+  <nav>
+    <a href="">04/08</a>
+    <a href="">04/15</a>
+    <a href="">04/22</a>
+  </nav>
+  <main>
+    <h2>Attendees</h2>
+    <ul>
+      <li>John</li>
+      <li>Mike</li>
+      <li>Sarah</li>
+      <li>Joel</li>
+      <li>Katie</li>
+      <li>Franklin</li>
+    </ul>
+    <h2>Agenda</h2>
+    <ol>
+      <li>Checkup with each team on <em>weekly assignment</em></li>
+      <li>Assess <em>team dynamics/productivity</em></li>
+    </ol>
+    <h2>Old Business</h2>
+    <ul>
+      <li>Teams were formed, based on a survey, for each task.</li>
+      <li>Leaders were assigned for each team.</li>
+    </ul>
+    <h2>New Business</h2>
+    <ul>
+      <li>Some people expressed issues with the <i>role</i> in their team.</li>
+    </ul>
+    <details>
+      <summary>Comments</summary>
+      <p><span class="comments">Slight tech issues caused meeting to be interrupted for around 2 minutes.</span></p>
+    </details>
+
+    <div class="media">
+      <h2>Images</h2>
+      <img width="400" height="266" src="team.jpg" alt="example"><br>
+      <a href="http://freepik.com">http://freepik.com</a>
+      <h2>Meeting Audio</h2>
+      <audio controls>
+        <source src="meetingaudio.mp3" type="audio/mpeg">
+      </audio>
+      <h2>Meeting Video</h2>
+      <video width="250" height="150" controls>
+        <source src="meetingvideo.mp4" type="video/mp4">
+      </video>
+    </div>
+  </main>
+
+  <br>
+
+  <form>
+    <fieldset>
+      <legend>Fill out the <i>NBA</i> form</legend>
+      <label for="first">Date of the first NBA game you watched</label>
+      <input type="date" id="first">
+      <hr>
+
+      <label for="team">What is your favorite team?</label>
+      <input type="text" id="team">
+      <hr>
+
+      <label for="game">Have you ever been to an NBA game?</label>
+      <input type="checkbox" id="game">
+      <hr>
+
+      <label for="position">If you were an NBA player, what position would you be?</label>
+      <select id="position">
+        <option value="pg">Point Guard</option>
+        <option value="sg">Shooting Guard</option>
+        <option value="sf">Small Forward</option>
+        <option value="pf">Power Forward</option>
+        <option value="c">Center</option>
+      </select>
+      <hr>
+
+      <label>Who is your GOAT?</label><br>
+      <label for="lebron">Lebron James</label>
+      <input type="radio" id="lebron"><br>
+      <label for="michael">Michael Jordan</label>
+      <input type="radio" id="michael"><br>
+      <hr>
+
+      <label for="choice">Pick your favorite player out of these three:</label>
+      <input list="player" id="choice">
+      <datalist id="player">
+        <option value="Lebron James"></option>
+        <option value="Stephen Curry"></option>
+        <option value="Kevin Durant"></option>
+      </datalist>
+      <hr>
+
+      <label for="txtarea">If you suddenly became the GM of your favorite team, name the top 3 moves you would make:</label>
+      <textarea id="txtarea"></textarea>
+      <hr>
+
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
