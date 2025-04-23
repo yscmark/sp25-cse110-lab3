@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap">
   <title>Meeting Minutes</title>
 </head>
 
@@ -20,50 +22,57 @@
     <a href="">04/22</a>
   </nav>
   <main>
-    <h2>Attendees</h2>
-    <ul>
-      <li>John</li>
-      <li>Mike</li>
-      <li>Sarah</li>
-      <li>Joel</li>
-      <li>Katie</li>
-      <li>Franklin</li>
-    </ul>
-    <h2>Agenda</h2>
-    <ol>
-      <li>Checkup with each team on <em>weekly assignment</em></li>
-      <li>Assess <em>team dynamics/productivity</em></li>
-    </ol>
-    <h2>Old Business</h2>
-    <ul>
-      <li>Teams were formed, based on a survey, for each task.</li>
-      <li>Leaders were assigned for each team.</li>
-    </ul>
-    <h2>New Business</h2>
-    <ul>
-      <li>Some people expressed issues with the <i>role</i> in their team.</li>
-    </ul>
+    <article>
+      <h2>Attendees</h2>
+      <ul>
+        <li>John</li>
+        <li>Mike</li>
+        <li><span id="lead">Sarah</span></li>
+        <li>Joel</li>
+        <li>Katie</li>
+        <li>Franklin</li>
+      </ul>
+      <p><span id="lead">Orange</span> - Team lead</p>
+    </article>
+    <article>
+      <h2>Agenda</h2>
+      <ol>
+        <li>Checkup with each team on <em>weekly assignment</em></li>
+        <li>Assess <em>team dynamics/productivity</em></li>
+      </ol>
+    </article>
+    <article>
+      <h2>Old Business</h2>
+      <ul>
+        <li>Teams were formed, based on a survey, for each task.</li>
+        <li>Leaders were assigned for each team.</li>
+      </ul>
+    </article>
+    <article>
+      <h2>New Business</h2>
+      <ul>
+        <li>Some people expressed issues with their <i>role</i> in the team.</li>
+      </ul>
+    </article>
     <details>
       <summary>Comments</summary>
       <p><span class="comments">Slight tech issues caused meeting to be interrupted for around 2 minutes.</span></p>
     </details>
-
-    <div class="media">
-      <h2>Images</h2>
-      <img width="400" height="266" src="team.jpg" alt="example"><br>
-      <a href="http://freepik.com">http://freepik.com</a>
-      <h2>Meeting Audio</h2>
-      <audio controls>
-        <source src="meetingaudio.mp3" type="audio/mpeg">
-      </audio>
-      <h2>Meeting Video</h2>
-      <video width="250" height="150" controls>
-        <source src="meetingvideo.mp4" type="video/mp4">
-      </video>
-    </div>
   </main>
 
-  <br>
+  <section class="media">
+    <h2>Images</h2>
+    <img src="team.jpg" alt="example"><br>
+    <a href="http://freepik.com">http://freepik.com</a>
+    <h2>Meeting Audio</h2>
+    <audio controls>
+      <source src="meetingaudio.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Meeting Video</h2>
+    <video width="250" height="150" controls>
+      <source src="meetingvideo.mp4" type="video/mp4">
+    </video>
+  </section>
 
   <h3>Form</h3>
   <form>
